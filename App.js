@@ -1,8 +1,7 @@
+import React from "react";
+import ReactDOM  from "react-dom/client";
 
-// element type
-// attributes
-// content
-const heading =  React.createElement('h1',{id:'heading'},"Hello World From React");
+const heading =  React.createElement('h1',{id:'heading'},"Hello World From React testing the hotreload ✌🚀");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -10,7 +9,6 @@ console.log(root)
 root.render(heading);
 
 
-  
 
 // deprecated
 
